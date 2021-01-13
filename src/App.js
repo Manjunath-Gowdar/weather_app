@@ -18,7 +18,7 @@ export class App extends Component {
   getUser = async () => {
     try {
       const response = await axios.get(
-        "api.openweathermap.org/data/2.5/weather?q=London&appid=19bc7c8c16bb27f9c37cb022e0955c26"
+        "https://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=19bc7c8c16bb27f9c37cb022e0955c26"
       );
       console.log(response, "okay");
     } catch (error) {

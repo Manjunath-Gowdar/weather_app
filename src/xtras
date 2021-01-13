@@ -1,3 +1,6 @@
 C:\Users\Star\Desktop\working-repo\weather_app\node_modules\bootstrap\dist\css\bootstrap.min.css
 
 api.openweathermap.org/data/2.5/weather?q=London,uk&appid=19bc7c8c16bb27f9c37cb022e0955c26
+
+    "start": "react-scripts start",
+
